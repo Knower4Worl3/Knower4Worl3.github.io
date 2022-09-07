@@ -3,4 +3,4 @@ Pentesting articles , CTF
 
 ## Posts 
 
-![easy machine] (https://knower4worl3.github.io/Easy.md) . 
+https://knower4worl3.github.io/Easy.md 
