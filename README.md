@@ -3,4 +3,4 @@ Pentesting articles , CTF
 
 # Posts 
 
-### [HTB Writeup \[Windows - Medium\] - Fuse](9/7/2022/First.md)
+### [HTB Writeup \[Windows - Medium\] - Fuse](9/7/2022)
