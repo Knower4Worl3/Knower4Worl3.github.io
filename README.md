@@ -6,7 +6,8 @@ Pentesting Articles, CTF Writeups and more..
 Posts
 -----
 ### [Red Team Fundamentals](THM-RED Team/Phase one.md)
-body { background-color: black; }
+
+<span style="color:blue">some *blue* text</span>
     
 
 
