@@ -30,9 +30,13 @@ we found subdomain will be foucs with it **s3.thetoppers.htb** by search on goog
 
 ![](/Assets/HTB/THREE/assets/s3amazon.png)
 
-_**NOTE**_  we should add the subdomain **S3.thetopper.htb** in /etc/hosts like that 
+_**NOTE**_  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that 
 
 echo **"10.129.10.31 s3.thetoppers.htb" | sudo tee -a /etc/hosts** and will open the s3.thetoppers.htb in our browser will find that result . 
+
+![](/Assets/HTB/THREE/assets/response.png)
+
+
 
 
 
