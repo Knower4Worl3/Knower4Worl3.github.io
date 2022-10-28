@@ -8,7 +8,7 @@
 
 # NMAP
 -----
-┌──(root㉿kali)-[~]
+*┌──(root㉿kali)-[~]
 └─# nmap -sV  10.129.10.31                                           
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-10-28 14:38 EDT
 Nmap scan report for 10.129.10.31
@@ -21,6 +21,12 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 17.67 seconds
-zsh: segmentation fault  nmap -sV 10.129.10.31
+zsh: segmentation fault  nmap -sV 10.129.10.31*
+
+
+# Ports 
+we find port 22 for ssh connection and port 80 for http service will discover it , let's check it by browser . 
+
+
 
 
