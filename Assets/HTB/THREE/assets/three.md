@@ -32,9 +32,15 @@ we found subdomain will be foucs with it **s3.thetoppers.htb** by search on goog
 
 _**NOTE**_  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that 
 
-echo **"10.129.10.31 s3.thetoppers.htb" | sudo tee -a /etc/hosts** and will open the s3.thetoppers.htb in our browser will find that result . 
 
 ![](/Assets/HTB/THREE/assets/response.png)
+
+The webpage only contains the perivous JSON.
+
+We can interact with this S3 bucket with the aid of the **awscli** utility. It can be installed on Linux using the command **apt install awscli** 
+
+First, we need to configure it using the following command. **aws configure**
+
 
 
 
