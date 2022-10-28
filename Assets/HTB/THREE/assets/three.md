@@ -41,15 +41,13 @@ We can interact with this S3 bucket with the aid of the **awscli** utility. It c
 
 First, we need to configure it using the following command. **aws configure**
 
-![](/Assets/HTB/THREE/assets/aws.png)
+![](/Assets/HTB/THREE/assets/ls.png)
 
 We can list all of the S3 buckets hosted by the server by using the ls command.
 
 **aws --endpoint=http://s3.thetoppers.htb s3 ls**
 
-![](/Assets/HTB/THREE/assets/upload.png)
 
-![](/Assets/HTB/THREE/assets/lsls.png)
 
 
 
