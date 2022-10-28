@@ -26,7 +26,7 @@ By checking the web using web by browser  we find the static page and will check
 
 we found subdomain will be foucs with it **s3.thetoppers.htb** by search on google about will find info about **amazon s3 cloud storage**
 
-![](/Assets/HTB/THREE/assets/s3 amazon.png)
+![](/Assets/HTB/THREE/assets/s3amazon.png)
 
 
 
