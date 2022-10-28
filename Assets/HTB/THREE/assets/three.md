@@ -1,6 +1,6 @@
 # HTB-Three 
 
-![](/Assets/HTB/THREE/assets/three.jpg | 250x250)
+<img src="./Assets/HTB/THREE/assets/three.jpg" width=250 height=250 > 
 
 # Summary 
 
