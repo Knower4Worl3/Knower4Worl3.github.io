@@ -18,9 +18,17 @@ we find port 22 for ssh connection and port 80 for http service will discover it
 
 
 
-_By checking the web using web by browser  we find the static page and will check the **subdomains** for this host by using **gobuster** as follow ; _ 
+By checking the web using web by browser  we find the static page and will check the **subdomains** for this host by using **gobuster** as follow .
 
-**NOTE** _add ip of machine in /etc/hosts_ 
+**NOTE** : add ip of machine in **/etc/hosts** 
+
+![](/Assets/HTB/THREE/assets/gobuster.png)
+
+we found subdomain will be foucs with it **s3.thetoppers.htb** by search on google about will find info about **amazon s3 cloud storage**
+
+![](/Assets/HTB/THREE/assets/s3 amazon.png)
+
+
 
 
 
