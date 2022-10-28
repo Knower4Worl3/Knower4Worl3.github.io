@@ -18,9 +18,11 @@ we find port 22 for ssh connection and port 80 for http service will discover it
 
 
 
-_By checking the web using web by browser  we find the web denamically and will check the subdomains for this host by using gobuster as follow ; _ 
+_By checking the web using web by browser  we find the static page and will check the **subdomains** for this host by using **gobuster** as follow ; _ 
 
 **NOTE** _add ip of machine in /etc/hosts_ 
+
+
 
 
 
