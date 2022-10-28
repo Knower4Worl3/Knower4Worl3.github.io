@@ -22,11 +22,23 @@ By checking the web using web browser we find the static page and will check the
 
 **NOTE** : add ip of machine in **/etc/hosts** 
 
+like that  echo **"10.129.10.31 thetoppers.htb" | sudo tee -a /etc/hosts**
+
 ![](/Assets/HTB/THREE/assets/gobuster.png)
 
 we found subdomain will be foucs with it **s3.thetoppers.htb** by search on google about it , will find info about **amazon s3 cloud storage**
 
 ![](/Assets/HTB/THREE/assets/s3amazon.png)
+
+_**NOTE**_  we should add the subdomain **S3.thetopper.htb** in /etc/hosts like that 
+
+echo **"10.129.10.31 s3.thetoppers.htb" | sudo tee -a /etc/hosts** and will open the s3.thetoppers.htb in our browser will find that result . 
+
+
+
+
+
+
 
 
 
