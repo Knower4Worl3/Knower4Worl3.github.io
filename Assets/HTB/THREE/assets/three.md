@@ -12,7 +12,7 @@
 # Ports 
 we find port 22 for ssh connection and port 80 for http service will discover it , let's check it by browser . 
 
-![](/Assets/HTB/THREE/assets/Web.png)
+![](/Assets/HTB/THREE/assets/web.png)
 
 
 
