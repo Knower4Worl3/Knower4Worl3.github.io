@@ -1,6 +1,6 @@
 # HTB-Three 
 
-![](/Assets/HTB/THREE/assets/three.png) 
+![](/Assets/HTB/THREE/assets/three.jpg) 
 
 # Summary 
 
