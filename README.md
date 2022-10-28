@@ -7,6 +7,8 @@ Posts
 -----
 ### [Red Team Fundamentals](THM-RED Team/Phase one.md)
 
+### [HTB Writeup - THREE](Assets/HTB/THREE/assets/three.md) 
+
 
     
 
