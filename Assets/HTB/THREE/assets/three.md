@@ -8,7 +8,7 @@
 
 # NMAP
 -----
-![](/Assets/HTB/THREE/assets/nmap.jpg)
+![](/Assets/HTB/THREE/assets/nmap.png)
 
 
 # Ports 
