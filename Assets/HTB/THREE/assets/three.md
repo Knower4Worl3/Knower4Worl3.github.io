@@ -85,7 +85,8 @@ the specified listening port. We can obtain the tun0 IP address of our local mac
 command._
 
 
-
+_Let's get a reverse shell by creating a new file shell.sh containing the following bash reverse shell payload
+which will connect back to our local machine on port 1337 .
 
 
 
