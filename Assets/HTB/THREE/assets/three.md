@@ -22,7 +22,7 @@ _By checking the web using web browser we find the static page and will check th
 
 _**NOTE** : add ip of machine in **/etc/hosts**_ 
 
-_**like that  echo "10.129.227.248 thetoppers.htb"**_  _**sudo tee -a /etc/hosts**_
+![](/Assets/HTB/THREE/assets/etc.png)
 
 ![](/Assets/HTB/THREE/assets/gobuster.png)
 
