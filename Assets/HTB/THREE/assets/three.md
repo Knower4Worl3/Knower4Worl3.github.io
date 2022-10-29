@@ -71,6 +71,8 @@ _Then, we can upload this PHP shell to the thetoppers.htb S3 bucket using the fo
 
 **aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb**
 
+![](/Assets/HTB/THREE/assets/shell.png)
+
 
 ![](/Assets/HTB/THREE/assets/result.png)
 
