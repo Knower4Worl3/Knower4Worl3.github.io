@@ -33,7 +33,7 @@ _we found subdomain will be foucs with it **s3.thetoppers.htb** by search on goo
 _**NOTE**  we should add the subdomain **s3.thetopper.htb** in /etc/hosts like that_ 
 
 
-![](/Assets/HTB/THREE/assets/response.png)
+![](/Assets/HTB/THREE/assets/s3.png)
 
 _The webpage only contains the perivous JSON._
 
