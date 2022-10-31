@@ -7,7 +7,7 @@ _**Posts**_
 -----
 
  
-## _**[HTB(BountyHunter-Easy-Linux)](/BountyHunter.md)**_
+## _**[HTB(BountyHunter-Easy-Linux)](/HTB/BountyHunter.md)**_
 
 
 
