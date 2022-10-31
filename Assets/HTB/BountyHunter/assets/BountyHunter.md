@@ -11,3 +11,9 @@ _BountyHunter box has more info about things and we will use some tools like dir
 _**NMAP**_
 
 ![](/Assets/HTB/BountyHunter/assets/nmap1.png)
+
+_**PORTS**_
+
+_We find port 22 fir ssh conection and Apache2 on port 80_ 
+
+_we will take a tour in website 
