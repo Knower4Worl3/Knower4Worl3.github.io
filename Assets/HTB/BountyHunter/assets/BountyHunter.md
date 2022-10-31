@@ -87,6 +87,13 @@ _the page sends request to **tracker_diRbPr00f314.php** , the payload was in htm
 _now we see the file after decoding is xml file , let's try read the file system by injecting XXE file._ 
 
 
+![](/Assets/HTB/BountyHunter/assets/xxe.png)
+
+
+_we will take this xml code in file.xml and encode it by base64 and add it in data= our encoded result as follow._ 
+
+![](/Assets/HTB/BountyHunter/assets/coder.png)
+
 
 
 
