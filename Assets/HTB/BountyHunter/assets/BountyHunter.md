@@ -1,10 +1,10 @@
 
-###HTB(BountyHunter-Linux)
+HTB(BountyHunter-Linux)
 --------------------------
-
+--------------------------
 ![](/Assets/HTB/BountyHunter/assets/BountyHunter.png)
 
-###_**Summary**_ 
+_**Summary**_ 
 
 _BountyHunter box has more info about things and we will use some tools like dirsearch and will know about source code reveiw and will xml injection to read php file and will use development user to foothold on system_
 
