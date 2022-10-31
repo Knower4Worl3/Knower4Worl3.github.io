@@ -32,7 +32,19 @@ _we found file db.php its interesting file , we should go deep in resourses and 
 
 ![](![](/Assets/HTB/BountyHunter/assets/dirsearch2.png)
 
+
 ![](![](/Assets/HTB/BountyHunter/assets/dirsearch3.png)
+
+
+_**Let's have a look at README.txt , which seems interesting.**_
+
+_**curl http://10.129.95.166/resources/README.txt**_
+
+![](/Assets/HTB/BountyHunter/assets/readme.png)
+
+
+
+
 
 
 
