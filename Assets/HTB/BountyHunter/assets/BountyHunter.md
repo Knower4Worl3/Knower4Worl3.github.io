@@ -16,14 +16,27 @@ _**PORTS**_
 
 _We find port 22 fir ssh conection and Apache2 on port 80_ 
 
-_we will take a tour in website we found a bug bounty team webpage , the website have portal to submit your bug and **contact us** form that does not work correctly_
+_we will take a tour in website we found a Bug Bounty Tracking System , the website have portal to submit your bug and **contact us** form that does not work correctly and **about**._
 
 ![](/Assets/HTB/BountyHunter/assets/web.png)
 
 
-_will use dirsearch to take a look deeply on site._
+_will use **dirsearch** to take a look deeply on site._
 
 ![](/Assets/HTB/BountyHunter/assets/dirsearch.png)
+
+
+![](/Assets/HTB/BountyHunter/assets/dirsearch1.png)
+
+_we found file db.php its interesting file , we should go deep in resourses and with the same command in dirsearch to see deep in this folder._
+
+![](![](/Assets/HTB/BountyHunter/assets/dirsearch2.png)
+
+![](![](/Assets/HTB/BountyHunter/assets/dirsearch3.png)
+
+
+
+
 
 
 
