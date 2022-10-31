@@ -1,18 +1,18 @@
 
-HTB(BountyHunter-Linux)
+##HTB(BountyHunter-Linux)
 
 ![](/Assets/HTB/BountyHunter/assets/BountyHunter.png)
 
-_**Summary**_ 
+##_**Summary**_ 
 
 _BountyHunter box has more info about things and we will use some tools like dirsearch and will know about source code reveiw and will xml injection to read php file and will use development user to foothold on system_
 
 
-_**NMAP**_
+##_**NMAP**_
 
 ![](/Assets/HTB/BountyHunter/assets/nmap1.png)
 
-_**PORTS**_
+##_**PORTS**_
 
 _We find port 22 fir ssh conection and Apache2 on port 80_ 
 
@@ -49,6 +49,12 @@ at the gateway page. Other than a single sentence referring us to another websit
 valuable information. Let's go to portal and look around._
 
 
+![](/Assets/HTB/BountyHunter/assets/portal.png)
+
+
+##_**Foothold**_
+
+_after get in portal we will clicking on portal.php and will find the team's Bounty Tracking System._
 
 
 
