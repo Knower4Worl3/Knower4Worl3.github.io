@@ -43,7 +43,7 @@ _**curl http://10.129.95.166/resources/README.txt**_
 ![](/Assets/HTB/BountyHunter/assets/readme.png)
 
 
-
+_now we find in **Readme.txt** development user is a test user that does not require password 
 
 
 
