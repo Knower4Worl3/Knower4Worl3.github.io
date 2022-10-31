@@ -66,6 +66,13 @@ _**Foothold**_
 --------------
 _after get in portal we will clicking on portal.php and will find the team's Bounty Tracking System._
 
+![](/Assets/HTB/BountyHunter/assets/portal1.png)
+
+_we can enter random data to see what is the reflect of form_ 
+
+![](/Assets/HTB/BountyHunter/assets/portal.png)
+
+
 
 
 
