@@ -23,7 +23,7 @@ _we will take a tour in website we found a bug bounty team webpage , the website
 
 _will use dirsearch to take a look deeply on site_
 
-![](/Assets/HTB/BountyHunter/assets/dirsearch.png)
+![](/Assets/HTB/BountyHunter/assets/dirsearch1.png)
 
 
 
