@@ -100,7 +100,9 @@ _we url encoding and use Burp to send our request._
 
 ![](/Assets/HTB/BountyHunter/assets/r2.png)
 
-_this is our response we can now read any file we need._
+_Now we'll be able to read any file we have access with this XXE injection. We can also try to read the db.php
+file, and as this is an apache2 server, we are going to try by selecting /var/www/html/ path. First though we
+need to base64 encode it using the php filter._
 
 
 
