@@ -68,9 +68,15 @@ _after get in portal we will clicking on portal.php and will find the team's Bou
 
 ![](/Assets/HTB/BountyHunter/assets/portal1.png)
 
-_we can enter random data to see what is the reflect of form_ 
+_we can enter random data to see what is the reflect of form._ 
 
 ![](/Assets/HTB/BountyHunter/assets/pagedata.png)
+
+_will use brupsuite tool to intercept the request to database of bugbounty system and we find as follow._ 
+
+![](/Assets/HTB/BountyHunter/assets/burp1.png)
+
+
 
 
 
