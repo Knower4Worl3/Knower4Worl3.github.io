@@ -77,9 +77,14 @@ _will use brupsuite tool to intercept the request to database of bugbounty syste
 ![](/Assets/HTB/BountyHunter/assets/burp1.png)
 
 
+_the page sends request to **tracker_diRbPr00f314.php** , the payload was in html encoding and should to decode it and decode it again to base64 as follow._
 
 
+![](/Assets/HTB/BountyHunter/assets/base64+.png)
 
+![](/Assets/HTB/BountyHunter/assets/xmlcode.png)
+
+_now we see the file after decoding is xml file , let's try read the file system by injecting XXE file._ 
 
 
 
