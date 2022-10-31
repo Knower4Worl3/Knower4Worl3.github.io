@@ -94,8 +94,13 @@ _we will take this xml code in file.xml and encode it by base64 and add it in da
 
 ![](/Assets/HTB/BountyHunter/assets/coder.png)
 
+_we url encoding and use Burp to send our request._ 
 
+![](/Assets/HTB/BountyHunter/assets/response.png)
 
+![](/Assets/HTB/BountyHunter/assets/r2.png)
+
+_this is our response we can now read any file we need._
 
 
 
