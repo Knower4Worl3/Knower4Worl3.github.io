@@ -7,7 +7,7 @@ _**Posts**_
 -----
 
  
-# OCT 31 2022 [BountyHunter-Linux](/BountyHunter.md)
+## [OCT 31 2022-BountyHunter-Linux](/BountyHunter.md)
 
 
 
