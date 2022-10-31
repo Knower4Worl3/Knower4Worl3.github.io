@@ -1,5 +1,6 @@
 
 ###HTB(BountyHunter-Linux)
+--------------------------
 
 ![](/Assets/HTB/BountyHunter/assets/BountyHunter.png)
 
