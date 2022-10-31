@@ -39,11 +39,11 @@ _we found file db.php its interesting file , we should go deep in resourses and 
 
 
 
-![](![](/Assets/HTB/BountyHunter/assets/dirsearch2.png)
+![](/Assets/HTB/BountyHunter/assets/dirsearch2.png)
 
 
 
-![](![](/Assets/HTB/BountyHunter/assets/dirsearch3.png)
+![](/Assets/HTB/BountyHunter/assets/dirsearch3.png)
 
 
 _**Let's have a look at README.txt , which seems interesting.**_
