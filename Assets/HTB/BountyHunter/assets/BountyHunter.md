@@ -43,7 +43,12 @@ _**curl http://10.129.95.166/resources/README.txt**_
 ![](/Assets/HTB/BountyHunter/assets/readme.png)
 
 
-_now we find in **Readme.txt** development user is a test user that does not require password 
+_now we find in **Readme.txt** development user is a test user that does not require password We return to the login
+screen and attempt to get in using the username test and no password; this time it succeeds. We've landed
+at the gateway page. Other than a single sentence referring us to another website, there is no more
+valuable information. Let's go to portal and look around._
+
+
 
 
 
