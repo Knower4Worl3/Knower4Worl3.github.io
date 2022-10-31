@@ -70,7 +70,7 @@ _after get in portal we will clicking on portal.php and will find the team's Bou
 
 _we can enter random data to see what is the reflect of form_ 
 
-![](/Assets/HTB/BountyHunter/assets/portal.png)
+![](/Assets/HTB/BountyHunter/assets/pagedata.png)
 
 
 
