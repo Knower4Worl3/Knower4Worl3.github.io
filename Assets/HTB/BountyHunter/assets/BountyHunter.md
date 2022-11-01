@@ -17,7 +17,7 @@ _**NMAP**_
 
 _**PORTS**_
 -----------
-_We find port 22 fir ssh conection and Apache2 on port 80._ 
+_We find port 22 for ssh conection and Apache2 on port 80._ 
 
 _we will take a tour in website we found a Bug Bounty Tracking System , the website have portal to submit your bug and **contact us** form that does not work correctly and **about**._
 
