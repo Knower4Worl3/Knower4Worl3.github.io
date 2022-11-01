@@ -115,3 +115,6 @@ _And now we can sent it._
 _now we have encoded result of request and we should decoded it as follow._
 
 ![](/Assets/HTB/BountyHunter/assets/password.png)
+
+as we see , we find credentials and we can use user we find in  
+
