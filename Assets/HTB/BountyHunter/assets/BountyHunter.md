@@ -108,6 +108,8 @@ need to base64 encode it using the php filter._
 ![](/Assets/HTB/BountyHunter/assets/xxe1.png)
 
 
+_And now we can sent it._
 
+![](/Assets/HTB/BountyHunter/assets/hash.png)
 
 
