@@ -122,7 +122,7 @@ login with the user development ._
 
 ![](/Assets/HTB/BountyHunter/assets/ssh.png)
 
-![](/Assets/HTB/BountyHunter/assets/Screenshot 2022-11-01 222307.png)
+![](/Assets/HTB/BountyHunter/assets/user.png)
 
 _now we done access on machine as user **development** and got flag user._
 
