@@ -122,14 +122,15 @@ login with the user development ._
 
 ![](/Assets/HTB/BountyHunter/assets/ssh.png)
 
-![](/Assets/HTB/BountyHunter/assets/userflage.png)
-
+![](/Assets/HTB/BountyHunter/assets/Screenshot 2022-11-01 222307.png)
 
 _now we done access on machine as user **development** and got flag user._
 
 _**Privilege Escalation**_
 ===========================
 
+_we check after get user flag we take a look about file contract we find valuble words and will search in /opt about what it has , will find skytrain_inc folder and have investgate tool to check tickets submitted ._
 
+![](/Assets/HTB/BountyHunter/assets/contract.png)
 
 
