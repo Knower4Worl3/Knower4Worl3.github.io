@@ -133,4 +133,6 @@ _we check after get user flag we take a look about file contract we find valuble
 
 ![](/Assets/HTB/BountyHunter/assets/contract.png)
 
+_after check code ticketValidator.py we find function **eval** and how to spot on vulnerabilities, 
 
+**validationNumber = eval(x.replace("**", ""))**._
