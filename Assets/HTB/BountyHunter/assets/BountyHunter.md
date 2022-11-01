@@ -120,9 +120,16 @@ _It seems that we got some credentials and now it is possible to check if we can
 password to system users we got from the /etc/passwd file and indeed we manage to get a successful
 login with the user development ._
 
+![](/Assets/HTB/BountyHunter/assets/ssh.png)
+
 ![](/Assets/HTB/BountyHunter/assets/userflage.png)
 
 
-![](/Assets/HTB/BountyHunter/assets/ssh.png)
+_now we done access on machine as user **development** and got flag user._
 
-now we done access on machine as user **development** and got flag user 
+_**Privilege Escalation**_
+===========================
+
+
+
+
