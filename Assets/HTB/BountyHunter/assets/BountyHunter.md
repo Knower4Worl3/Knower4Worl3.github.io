@@ -133,6 +133,37 @@ _we check after get user flag we take a look about file contract we find valuble
 
 ![](/Assets/HTB/BountyHunter/assets/contract.png)
 
-_after check code ticketValidator.py we find function **eval** and how to spot on vulnerabilities, 
+_after check code ticketValidator.py we find function **eval** and how to spot on vulnerabilities._
 
-**validationNumber = eval(x.replace("**", ""))**._
+![](/Assets/HTB/BountyHunter/assets/function.png)
+
+_We also examine the ticket code to discover how it is calculated by the script._
+
+![](/Assets/HTB/BountyHunter/assets/ticket.png)
+
+_Also this is a supplementary check, to check the validator is more than value of 100._
+
+![](/Assets/HTB/BountyHunter/assets/val.png)
+
+_we see if create ticket and run it but this file work from root we will see if we can check sudoers if there is a way to excute it._
+
+![](/Assets/HTB/BountyHunter/assets/sudo.png)
+
+_will see we can use this commands by sudo as show in screen and will create ticket to see what will happen and make the result is true in file by extintion md._
+
+![](/Assets/HTB/BountyHunter/assets/enumratecode3.png)
+
+_by excute the command which allowable to sudo on development user with true ticket the validitor make validate the ticket make us root._ 
+
+_This is a success. Now we can change id to /bin/bash and get an interactive root shell._
+
+ ![](/Assets/HTB/BountyHunter/assets/root.png)
+ 
+ ![](/Assets/HTB/BountyHunter/assets/rootflag.png)
+ 
+ _Thanks For Watching My Blog_
+ =============================
+ 
+ _Mohamed Emam_
+ 
+ 
