@@ -161,8 +161,8 @@ _This is a success. Now we can change id to /bin/bash and get an interactive roo
  
  ![](/Assets/HTB/BountyHunter/assets/rootflag.png)
  
- _Thanks For Watching My Blog_
+ _**Thanks For Watching My Blog**_
  
-  _Mohamed Emam_
+  _**Mohamed Emam**_
  
  
