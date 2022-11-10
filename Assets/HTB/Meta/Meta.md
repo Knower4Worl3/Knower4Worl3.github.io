@@ -56,8 +56,15 @@ repository of one of the available public exploits to our attacking machine._
 
 _we will get in **expliot.py** and change ip to our ip which taken of htb vpn._ 
 
+_after adding our ip will save and exit and run the expliot.py_ 
 
+![](/Assets/HTB/Meta/run.png)
 
+_will see two images will skip original and take second and upload it to web and before upload it open listening  on port which you specified as follow._
+
+![](/Assets/HTB/Meta/shell.png)
+
+_we see got shell._
 
 
 
