@@ -22,6 +22,12 @@ _we will check subdomain by using *wfuzz*_
 
 _we find subdomain *"dev01"* and we will add it in /etc/hosts._
 
+![](/Assets/HTB/Meta/webhost.png) 
+
+
+
+
+
 
 
 
