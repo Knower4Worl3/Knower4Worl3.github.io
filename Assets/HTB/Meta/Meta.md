@@ -91,3 +91,20 @@ _pspy64s found convert_images.sh present at location /usr/local/bin/ is being ex
 
 _On checking the content of convert_images.sh found that it is executing $ mogrify command to convert each uploaded file to png. Check more about $ mogrify command , On checking the version of $ mogrify found that the version of **ImageMagick** suite of which it is part of is 7.0.10-36. After some googling found that ImageMagick 7.0.10-36 is vulnerable to Shell Injection vulnerability. Since $ mogrify is part of ImageMagick suite so it may also be vulnerable._
 
+_To exploit this vulnerability, I have simply created a file poc.svg inside the directory /var/www/dev01.artcorp.htb/convert_images/ with the payload_
+
+_We can exploit this to obtain a reverse shell as thomas . First we encode our reverse shell
+payload to base64:_
+
+_Then we create a file called rce.svg where our injected command will echo the base64 string generated
+above, decode it and pass it to bash via a pipe. This will result in our payload being executed on the next
+cron execution._
+
+![](/Assets/HTB/Meta/echo.png)
+
+![](/Assets/HTB/Meta/user.png)
+
+![](/Assets/HTB/Meta/userflag1.png)
+
+
+
