@@ -28,8 +28,17 @@ _the link **MetaView** take us to page to upload images_
 
 ![](/Assets/HTB/Meta/linkvhost.png) 
 
+_after upload image to test and display their metadata._ 
 
+![](/Assets/HTB/Meta/exictftool .png) 
 
+_Further enumeration reveals the existence of a composer.json file._
+
+![](/Assets/HTB/Meta/composer.png)
+
+_we check the finds in enumration of **metaview** and use **curl** to show **EXIfTool** to read metadata._
+
+![](/Assets/HTB/Meta/curl.png)
 
 
 
