@@ -3,7 +3,7 @@ HTB(Meta-Linux)
 
 ![](/Assets/HTB/Meta/pwned.png)
 
-###_**NMAP**_
+_**NMAP**_
 -------------
 
 ![](/Assets/HTB/Meta/nmap.png)
@@ -40,8 +40,13 @@ _we check the finds in enumration of **metaview** and use **curl** to show **EXI
 
 ![](/Assets/HTB/Meta/curl.png)
 
-#_**Foothold**_
+_**Foothold**_
 ---------------
+
+
+_Searching for potential vulnerabilities we come across CVE-2021-22204, which could grant us remote
+command execution in case of a vulnerable ExifTool version installed on the target. We use Git to clone the
+repository of one of the available public exploits to our attacking machine._
 
 
 
