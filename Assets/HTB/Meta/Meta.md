@@ -66,7 +66,9 @@ _will see two images will skip original and take second and upload it to web and
 
 _we see got shell._
 
+_We upgrade our shell to a fully interactive pty:_ 
 
+![](/Assets/HTB/Meta/upgrade.png)
 
 
 
