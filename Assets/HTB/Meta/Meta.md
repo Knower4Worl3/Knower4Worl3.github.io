@@ -24,7 +24,9 @@ _we find subdomain *"dev01"* and we will add it in /etc/hosts._
 
 ![](/Assets/HTB/Meta/webhost.png) 
 
+_the link **MetaView** take us to page to upload images_ 
 
+![](/Assets/HTB/Meta/linkvhost.png) 
 
 
 
