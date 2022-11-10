@@ -73,7 +73,7 @@ _We upgrade our shell to a fully interactive pty:_
 
 _will use ** python3 -c 'import pty;pty.spawn("/bin/bash")'** in addition to ctrl+z_ 
 
-_ in our console will tybe **stty raw -echo;fg** don not forget doble enter_ 
+_in our console will tybe **stty raw -echo;fg** don not forget doble enter_ 
 
 
 
