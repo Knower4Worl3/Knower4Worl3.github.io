@@ -79,6 +79,8 @@ _We have successfully upgraded the shell. User flag is not accessible to user ww
 
 ![](/Assets/HTB/Meta/pspy.png)
 
+![](/Assets/HTB/Meta/runing.png)
+
 ![](/Assets/HTB/Meta/mog.png)
 
 ![](/Assets/HTB/Meta/mography.png)
