@@ -40,7 +40,8 @@ _we check the finds in enumration of **metaview** and use **curl** to show **EXI
 
 ![](/Assets/HTB/Meta/curl.png)
 
-
+#_**Foothold**_
+---------------
 
 
 
