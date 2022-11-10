@@ -106,5 +106,6 @@ cron execution._
 
 ![](/Assets/HTB/Meta/userflag1.png)
 
+we have access by ssh after take id_rsa from server to our machine in addition to we create file to RCE 
 
 
