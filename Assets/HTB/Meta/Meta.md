@@ -16,6 +16,19 @@ _ Go to take a look about website._
 
 ![](/Assets/HTB/Meta/browser.png)
 
+_we will check subdomain by using *wfuzz*_
+
+![](/Assets/HTB/Meta/fuzz.png) 
+
+_we find subdomain *"dev01"* and we will add it in /etc/hosts._
+
+
+
+
+
+
+
+
 
 
 
