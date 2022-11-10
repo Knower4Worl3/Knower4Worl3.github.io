@@ -50,7 +50,11 @@ repository of one of the available public exploits to our attacking machine._
 
 
 
+![](/Assets/HTB/Meta/clone.png)
 
+![](/Assets/HTB/Meta/cv.png)
+
+_we will get in **expliot.py** and change ip to our ip which taken of htb vpn._ 
 
 
 
