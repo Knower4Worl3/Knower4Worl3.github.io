@@ -30,7 +30,7 @@ _the link **MetaView** take us to page to upload images_
 
 _after upload image to test and display their metadata._ 
 
-![](/Assets/HTB/Meta/exictftool .png) 
+![](/Assets/HTB/Meta/exictftool.png) 
 
 _Further enumeration reveals the existence of a composer.json file._
 
