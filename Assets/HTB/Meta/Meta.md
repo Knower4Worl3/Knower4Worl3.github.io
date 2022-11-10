@@ -1,7 +1,7 @@
 HTB(Meta-Linux)
 ===============
 
-![](/Assets/HTB/Meta/pwned.png)
+![](/Assets/HTB/Meta/reired.png)
 
 _**NMAP**_
 -------------
