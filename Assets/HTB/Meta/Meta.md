@@ -71,9 +71,9 @@ _We upgrade our shell to a fully interactive pty:_
 ![](/Assets/HTB/Meta/upgrade.png)
 
 
-_will use ** python3 -c 'import pty;pty.spawn("/bin/bash")'** in addition to ctrl+z_ 
+_will use ** python3 -c 'import pty;pty.spawn("/bin/bash")'** in addition to ctrl+z._ 
 
-_in our console will tybe **stty raw -echo;fg** don not forget double enter_ 
+_in our console will tybe **stty raw -echo;fg** do not forget double enter._ 
 
 
 
