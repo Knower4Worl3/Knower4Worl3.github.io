@@ -83,6 +83,10 @@ _We have successfully upgraded the shell. User flag is not accessible to user ww
 
 ![](/Assets/HTB/Meta/mog.png)
 
+_pspy64s found convert_images.sh present at location /usr/local/bin/ is being executed at regular interval of 1 min by user thomas [check UID=1000, in above pspy report]. Let us check the content of this file._
+
+![](/Assets/HTB/Meta/cat.png)
+
 ![](/Assets/HTB/Meta/mography.png)
 
 _On checking the content of convert_images.sh found that it is executing $ mogrify command to convert each uploaded file to png. Check more about $ mogrify command , On checking the version of $ mogrify found that the version of **ImageMagick** suite of which it is part of is 7.0.10-36. After some googling found that ImageMagick 7.0.10-36 is vulnerable to Shell Injection vulnerability. Since $ mogrify is part of ImageMagick suite so it may also be vulnerable._
