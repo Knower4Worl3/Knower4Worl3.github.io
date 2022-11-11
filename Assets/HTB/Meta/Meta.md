@@ -131,9 +131,9 @@ _Based on above explanantion if **XDG_CONFIG_HOME** is not set or empty it will 
 _**Getting Root Shell**_ 
 ------------------------
 
-![](![](/Assets/HTB/Meta/root.png)
+![](/Assets/HTB/Meta/root.png)
 
-![](![](/Assets/HTB/Meta/rootflag.png)
+![](/Assets/HTB/Meta/rootflag.png)
 
 _we got root finaly_ 
 
