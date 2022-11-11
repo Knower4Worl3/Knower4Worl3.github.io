@@ -128,6 +128,6 @@ _lets's looking into **sudo -l** and we found environment varible XDG_CONFIG_HOM
 
 ![](/Assets/HTB/Meta/XDC_CONFIG_HOME_env-variable-info.png)
 
-_ based above explanantion 
+_Based on above explanantion  
 
 
