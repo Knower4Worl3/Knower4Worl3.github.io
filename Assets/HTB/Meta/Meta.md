@@ -106,6 +106,8 @@ cron execution._
 
 ![](/Assets/HTB/Meta/userflag1.png)
 
+_**Don't forget after take id_rsa on our machine to give it permission to work as follow **chmod 600 id_rsa**_
+
 _we have access by ssh after take id_rsa from server to our machine._ 
 
 _**Privlage Esclastion**_ 
