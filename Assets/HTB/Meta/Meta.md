@@ -121,6 +121,13 @@ _**Finding PrivEsc Vector**_
 
 ![](/Assets/HTB/Meta/privilageEs.png)
 
+_now we see that thomas user can run **/usr/bin/neofetch** but to run this neofetch binary requires a config file and that file is present in users home directory, for example if user thomas executes that will require confige file inside /home/thomas/ directory , if user root excute this file will require file in /root/ directory._
 
+_lets's looking into **sudo -l** and we found environment varible XDG_CONFIG_HOME by search about that._ 
+
+
+![](/Assets/HTB/Meta/XDC_CONFIG_HOME_env-variable-info.png)
+
+_ based above explanantion 
 
 
