@@ -108,4 +108,9 @@ cron execution._
 
 _we have access by ssh after take id_rsa from server to our machine._ 
 
+_**Privlage Esclastion**_ 
+--------------------------
+
+
+
 
