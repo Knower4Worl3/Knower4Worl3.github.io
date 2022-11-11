@@ -56,7 +56,7 @@ repository of one of the available public exploits to our attacking machine._
 
 _we will get in **expliot.py** and change ip to our ip which taken of htb vpn._ 
 
-_after adding our ip will save and exit and run the expliot.py_ 
+_after adding our ip will save and exit and run the expliot.py._ 
 
 ![](/Assets/HTB/Meta/run.png)
 
@@ -75,7 +75,7 @@ _will use ** python3 -c 'import pty;pty.spawn("/bin/bash")'** in addition to ctr
 
 _in our console will tybe **stty raw -echo;fg** do not forget double enter._ 
 
-_We have successfully upgraded the shell. User flag is not accessible to user www-data. It is only readable to users root and thomas. After some enumeration when did not find anything interesting then ran $ pspy [a process monitoring tool] to check whether any file is being executed at regular interval. You can download pspy64 binary_ 
+_We have successfully upgraded the shell. User flag is not accessible to user www-data. It is only readable to users root and thomas. After some enumeration when did not find anything interesting then ran $ pspy [a process monitoring tool] to check whether any file is being executed at regular interval. You can download pspy64 binary._ 
 
 ![](/Assets/HTB/Meta/pspy.png)
 
@@ -91,14 +91,12 @@ _pspy64s found convert_images.sh present at location /usr/local/bin/ is being ex
 
 _On checking the content of convert_images.sh found that it is executing $ mogrify command to convert each uploaded file to png. Check more about $ mogrify command , On checking the version of $ mogrify found that the version of **ImageMagick** suite of which it is part of is 7.0.10-36. After some googling found that ImageMagick 7.0.10-36 is vulnerable to Shell Injection vulnerability. Since $ mogrify is part of ImageMagick suite so it may also be vulnerable._
 
-_To exploit this vulnerability, I have simply created a file poc.svg inside the directory /var/www/dev01.artcorp.htb/convert_images/ with the payload_
+_To exploit this vulnerability, I have simply created a file poc.svg inside the directory /var/www/dev01.artcorp.htb/convert_images/ with the payload._
 
 _We can exploit this to obtain a reverse shell as thomas . First we encode our reverse shell
 payload to base64:_
 
-_Then we create a file called rce.svg where our injected command will echo the base64 string generated
-above, decode it and pass it to bash via a pipe. This will result in our payload being executed on the next
-cron execution._
+_Then we create a file called rce.svg where our injected command will echo the base64 string generated above, decode it and pass it to bash via a pipe. This will result in our payload being executed on the next cron execution._
 
 ![](/Assets/HTB/Meta/echo.png)
 
