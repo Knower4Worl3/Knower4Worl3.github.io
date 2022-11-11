@@ -128,6 +128,11 @@ _lets's looking into **sudo -l** and we found environment varible XDG_CONFIG_HOM
 
 ![](/Assets/HTB/Meta/XDC_CONFIG_HOME_env-variable-info.png)
 
-_Based on above explanantion if **XDG_CONFIG_HOME** is not set or empty it will use default config file, **/root/.config** but if it is set we can force **neofetch** to use config file which exist related thomas to use config file which exist in **home/thomas/.config**, so we can inject our reverse shell code inside config.conf file present in directory **/home/thomas/.config/neofetch/** and when we run 
+_Based on above explanantion if **XDG_CONFIG_HOME** is not set or empty it will use default config file, **/root/.config** but if it is set we can force **neofetch** to use config file which exist related thomas to use config file which exist in **home/thomas/.config**, so we can inject our reverse shell code inside config.conf file present in directory **/home/thomas/.config/neofetch/** and when we run **/usr/bin/neofetch \"\"** with sudo hen code inside config.conf file will also be executed with root user privilege. so we use file thomas with privelege of root._ 
+
+_**Getting Root Shell**_ 
+------------------------
+
+
 
 
