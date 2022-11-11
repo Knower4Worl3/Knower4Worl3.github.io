@@ -110,8 +110,16 @@ _Don't forget after take id_rsa on our machine to give it permission to work as 
 
 _we have access by ssh after take id_rsa from server to our machine._ 
 
-_**Privlage Esclastion**_ 
+_**Privlege Esclastion**_ 
 --------------------------
+
+_To esclate the privilege to root we should first the **privilege esclation vector** we can find privEsc either manullay or using scripts like linpeas.sh._ 
+
+_**Finding PrivEsc Vector**_
+
+![](/Assets/HTB/Meta/linsh.png)
+
+![](/Assets/HTB/Meta/privilageEs.png)
 
 
 
