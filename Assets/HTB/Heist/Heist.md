@@ -31,4 +31,9 @@ _let's check web._
 
 _we found login user form._
 
+_we will try to open as guest._ 
+
+![](/Assets/HTB/Heist/openguset.png)
+
+
 
