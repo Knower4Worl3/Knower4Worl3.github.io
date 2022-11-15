@@ -35,5 +35,8 @@ _we will try to open as guest._
 
 ![](/Assets/HTB/Heist/openguset.png)
 
+_there was user called hazard post about part of configurations of router cisco with some hashed credentials._
+
+![](/Assets/HTB/Heist/attachment.png)
 
 
