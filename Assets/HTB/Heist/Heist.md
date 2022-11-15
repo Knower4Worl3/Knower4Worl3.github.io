@@ -22,6 +22,9 @@ _we found port winrm is opened._
 
 _we try to get in smb by anonymouse user but not authinticated._
 
+_**Web Enumration**_
+--------------------
+
 _let's check web._
 
 ![](/Assets/HTB/Heist/web.png)
