@@ -97,7 +97,7 @@ _we can use **psexec.py** to get root._
 
 ![](/Assets/HTB/Heist/root.png)
 
-![](![](/Assets/HTB/Heist/rootflag.png)
+![](/Assets/HTB/Heist/rootflag.png)
 
 _**Thanks for watching my Blog**_
 ----------------------------------
